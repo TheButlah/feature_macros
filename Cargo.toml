@@ -1,0 +1,16 @@
+[package]
+name = "feature_utils"
+version = "0.0.0"
+
+description = "Macros for good compiler errors when dealing with feature flags"
+license = "MIT OR Apache-2.0"
+authors = ["Ryan Butler <thebutlah@gmail.com>"]
+repository = "https://github.com/TheButlah/feature_utils"
+keywords = ["macro", "feature", "error", "helper"]
+tags = ["no-std", "rust-patterns"]
+
+edition = "2021"
+rust-version = "1.56.0" # 2021 edition
+
+[lib]
+doctest = false

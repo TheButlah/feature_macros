@@ -1,0 +1,6 @@
+# Use python black's 88 char col limit.
+max_width = 88
+
+# Use tabs to allow people to increase or decrease indentation.
+# By default, rustfmt treats tabs as 4 spaces for the purposes of line wrapping.
+hard_tabs = true
